@@ -57,6 +57,7 @@ function images() {
 		.pipe(gulp.dest('build/assets/imgs'))
 		.pipe(browserSync.stream())
 }
+
 // функция копирования шрифтов
 function fonts() {
 	return gulp.src('src/assets/fonts/*')
